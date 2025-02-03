@@ -8,7 +8,7 @@ if(navigator.serviceWorker) {
         // .then(reg => console.log("Service Worker registered."))
         // .catch(err => console.log("Service worker registration failed", err));
         
-        navigator.serviceWorker.register("../sw_cache_site.js")
+        navigator.serviceWorker.register("/raaj.serviceWorker/sw_cache_site.js")
         .then(reg => console.log("Service Worker registered."))
         .catch(err => console.log("Service worker registration failed", err));
     })
